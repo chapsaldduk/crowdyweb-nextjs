@@ -6,11 +6,11 @@ import img2 from "/public/assets/Intro/2phones_mobile.png";
 
 export default function Home() {
   return (
-    <div id="index" className="SCoreDreamFont4">
+    <div id="index" className="SCoreDreamFont4 z-10">
       {/* section1 */}
       <div id="section01" className="min-w-full h-screen bg-section01">
-        <div className="absolute top-1/2 left-1/4 translate-x-50 translate-y-50">
-          <div className="text-44 font-semibold leading-53 mb-36">
+        <div className="absolute top-1/2 left-25 translate-x-50 translate-y-50">
+          <div className="text-44 font-semibold leading-53 mb-36 ">
             <span>카페 사장님의</span>
             <br />
             <span>자세한 이야기</span>

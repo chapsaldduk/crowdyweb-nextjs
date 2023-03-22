@@ -13,14 +13,16 @@ module.exports = {
       colors: {
         crowdyColor: "#00705b",
         section01: "#faf6f3",
-        section02: "#ffffff",
+        ffffff: "#ffffff",
         button: "#f2f3f5",
       },
       translate: {
         50: "-50%",
       },
       inset: {
-        30: "25%",
+        25: "25%",
+        32: "32%",
+        40: "40%",
         60: "60%",
         70: "70%",
         80: "80%",
@@ -31,7 +33,9 @@ module.exports = {
         "18vh": "18vh",
       },
       height: {
+        "4vh": "4vh",
         "6vh": "6vh",
+        "8vh": "8vh",
       },
     },
     fontSize: {
