@@ -2,7 +2,7 @@ import Image from "next/image";
 
 //images
 import img1 from "/public/assets/Intro/5imgs.webp";
-import img2 from "/public/assets/Intro/2phones_mobile.png";
+import img2 from "/public/assets/Intro/3phones.png";
 
 export default function Home() {
   return (
@@ -35,7 +35,7 @@ export default function Home() {
         <Image
           src={img2}
           alt=""
-          width={730}
+          width={700}
           className="relative top-60 left-1/4 translate-x-50 translate-y-50"
         />
         <div className="relative top-90 left-1/3 translate-x-50 translate-y-50">
