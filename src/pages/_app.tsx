@@ -5,6 +5,7 @@ import type { AppProps } from "next/app";
 import Title from "components/Title";
 import Nav from "components/Nav";
 import Footer from "components/Footer";
+import Space from "components/Space";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Title />
 
       <Nav />
+      <Space />
       <Component {...pageProps} />
       <Footer />
     </>

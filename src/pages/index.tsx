@@ -10,8 +10,7 @@ export default function Home() {
     <div id="index" className="SCoreDreamFont4 z-10">
       {/* section1 */}
       <div id="section01" className="min-w-full h-screen bg-section01">
-        <Space />
-        <div className="absolute top-1/2 left-25 translate-x-50 translate-y-50">
+        <div className="absolute top-1/2 left-25 -translate-x-1/2 -translate-y-1/2">
           <div className="text-44 font-semibold leading-53 mb-36 ">
             <span>카페 사장님의</span>
             <br />
@@ -27,7 +26,7 @@ export default function Home() {
           src={img1}
           alt=""
           width={723}
-          className="absolute top-1/2 left-70 translate-x-50 translate-y-50"
+          className="absolute top-1/2 left-70 -translate-x-1/2 -translate-y-1/2"
         />
       </div>
 
@@ -37,9 +36,9 @@ export default function Home() {
           src={img2}
           alt=""
           width={680}
-          className="h-800px relative top-60 left-1/4 translate-x-50 translate-y-50"
+          className="h-800px relative top-60 left-1/4 -translate-x-1/2 -translate-y-1/2"
         />
-        <div className="relative top-90 left-1/3 translate-x-50 translate-y-50">
+        <div className="relative h-800px top-90 left-1/3 -translate-x-1/2 -translate-y-1/2">
           <div className="text-44 font-semibold leading-53 mb-36">
             <span>서로 다른 사장님,</span>
             <br />
