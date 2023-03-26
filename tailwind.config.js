@@ -21,6 +21,7 @@ module.exports = {
         button: "#f2f3f5",
         "#f4f4f6": "#f4f4f6",
         "#343438": "#343438",
+        "#f0fbf6": "#f0fbf6",
       },
       translate: {
         50: "-50%",
@@ -57,6 +58,8 @@ module.exports = {
       height: {
         "30px": "30px",
         "250px": "250px",
+        "300px": "300px",
+        "450px": "450px",
         "500px": "500px",
         "800px": "800px",
         "4vh": "4vh",
@@ -68,6 +71,7 @@ module.exports = {
       44: "44px",
       16: "16px",
       "2vh": "2vh",
+      "44px": "44px",
     },
     lineHeight: {
       53: "53px",
