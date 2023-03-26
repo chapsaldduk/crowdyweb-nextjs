@@ -1,0 +1,15 @@
+.footer {
+  border-top: 1px solid #f4f4f6;
+}
+
+.footeremail {
+  width: 250px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.email {
+  position: absolute;
+  right: 0%;
+}

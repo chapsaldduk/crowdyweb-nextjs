@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Space from "components/Space";
 
 //images
 import img1 from "/public/assets/Intro/5imgs.webp";
@@ -9,6 +10,7 @@ export default function Home() {
     <div id="index" className="SCoreDreamFont4 z-10">
       {/* section1 */}
       <div id="section01" className="min-w-full h-screen bg-section01">
+        <Space />
         <div className="absolute top-1/2 left-25 translate-x-50 translate-y-50">
           <div className="text-44 font-semibold leading-53 mb-36 ">
             <span>카페 사장님의</span>
@@ -25,7 +27,6 @@ export default function Home() {
           src={img1}
           alt=""
           width={723}
-          height={316}
           className="absolute top-1/2 left-70 translate-x-50 translate-y-50"
         />
       </div>
@@ -35,8 +36,8 @@ export default function Home() {
         <Image
           src={img2}
           alt=""
-          width={700}
-          className="relative top-60 left-1/4 translate-x-50 translate-y-50"
+          width={680}
+          className="h-800px relative top-60 left-1/4 translate-x-50 translate-y-50"
         />
         <div className="relative top-90 left-1/3 translate-x-50 translate-y-50">
           <div className="text-44 font-semibold leading-53 mb-36">

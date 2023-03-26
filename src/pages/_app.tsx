@@ -4,6 +4,7 @@ import "@/styles/SCoreDreamFont.scss";
 import type { AppProps } from "next/app";
 import Title from "components/Title";
 import Nav from "components/Nav";
+import Footer from "components/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
       <Nav />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }

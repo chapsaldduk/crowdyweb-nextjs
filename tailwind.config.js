@@ -10,11 +10,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      margin: {
+        36: "36px",
+        "150px": "150px",
+      },
       colors: {
         crowdyColor: "#00705b",
         section01: "#faf6f3",
         ffffff: "#ffffff",
         button: "#f2f3f5",
+        "#f4f4f6": "#f4f4f6",
+        "#343438": "#343438",
       },
       translate: {
         50: "-50%",
@@ -31,8 +37,10 @@ module.exports = {
         15: "15%",
         20: "20%",
         25: "25%",
+        30: "30%",
         32: "32%",
         40: "40%",
+        50: "50%",
         60: "60%",
         70: "70%",
         80: "80%",
@@ -43,9 +51,13 @@ module.exports = {
         "30px": "30px",
         "150px": "150px",
         "18vh": "18vh",
+        "250px": "250px",
+        "500px": "500px",
       },
       height: {
         "30px": "30px",
+        "250px": "250px",
+        "800px": "800px",
         "4vh": "4vh",
         "6vh": "6vh",
         "8vh": "8vh",
@@ -59,9 +71,6 @@ module.exports = {
     lineHeight: {
       53: "53px",
       19: "19px",
-    },
-    margin: {
-      36: "36px",
     },
   },
   plugins: [],
